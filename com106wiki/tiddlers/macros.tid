@@ -1,0 +1,25 @@
+created: 20170728192802862
+modified: 20170808164521993
+tags: $:/tags/Macro
+title: macros
+type: text/vnd.tiddlywiki
+
+\define indirect() [title<currentTiddler>!field:$(field-name)$[]]
+
+\define show-field(show-field-name)
+<$vars field-name=$show-field-name$>
+<$list filter=<<indirect>>>
+<div class="h2"><<field-name>></div>
+<div class="paragraph"><$view field=<<field-name>> mode="block"/></div>
+\end
+
+\define show-component-name(component)
+<$vars component-name=$component$>
+<$list filter="[title<component-name>]">
+<$appear class="component-description" state=<<component-name>>>
+<$transclude field="component-description"/>. The grade from this component counts for {{!!percent-grade}} of the overall project grade.
+</$appear>
+\end
+
+<$macrocall $name="show-component-name" component="Design"/><br>
+<$macrocall $name="show-component-name" component="Produce"/>

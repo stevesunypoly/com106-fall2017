@@ -1,0 +1,38 @@
+created: 20170728170614177
+modified: 20170808165047303
+tags: $:/tags/ViewTemplate
+title: project-template
+type: text/vnd.tiddlywiki
+
+\define indirect() [title<currentTiddler>field:project-component-due[$(field-value)$]
+<$list filter="[is[current]tag[Project]]">
+
+<$vars projectTiddler=<<currentTiddler>> project-number={{!!project-number}}>
+
+<div class="project-title">
+<$transclude field="project-title" mode="inline"/>
+</div>
+
+<span class="project-component-title"> Outcome:
+</span>
+
+<div class="project-component-text"><$transclude field="outcome" mode="block"/>
+</div>
+
+<$list filter="[tag[Project Component]each[]]">
+<$vars project-component=<<currentTiddler>> field-name={{!!lc-title}}>
+<span class="project-component-title"><<currentTiddler>>
+</span>
+<span class="project-component-text"><$macrocall $name="show-component-name" component=<<project-component>>/>
+</span>
+
+<div class="project-due">
+Due: 
+<$list filter="[project-number-due<project-number>project-component-due<project-component>]">
+<$link><$transclude field="title" mode="inline"/></$link>
+</$list>
+</div>
+
+<div class="project-component-text">
+<$transclude tiddler=<<projectTiddler>> field=<<field-name>> mode="block"/>
+</div>

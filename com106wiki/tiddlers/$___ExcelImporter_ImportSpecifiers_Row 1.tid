@@ -1,0 +1,7 @@
+created: 20170726220753114
+import-spec-role: row
+list: [[$:/_ExcelImporter/ImportSpecifiers/Field 24]] [[$:/_ExcelImporter/ImportSpecifiers/Field 23]] [[$:/_ExcelImporter/ImportSpecifiers/Field 16]] [[$:/_ExcelImporter/ImportSpecifiers/Field 15]] [[$:/_ExcelImporter/ImportSpecifiers/Field 13]] [[$:/_ExcelImporter/ImportSpecifiers/Field 12]] [[$:/_ExcelImporter/ImportSpecifiers/Field 11]] [[$:/_ExcelImporter/ImportSpecifiers/Field 14]] [[$:/_ExcelImporter/ImportSpecifiers/Field 10]] [[$:/_ExcelImporter/ImportSpecifiers/Field 9]] [[$:/_ExcelImporter/ImportSpecifiers/Field 8]] [[$:/_ExcelImporter/ImportSpecifiers/Field 7]]
+modified: 20170807185802237
+title: $:/_ExcelImporter/ImportSpecifiers/Row 1
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,18 @@
+created: 20170726221032191
+modified: 20170807202958001
+tags: 
+title: Class Schedule
+type: text/vnd.tiddlywiki
+
+\define indirect() Project$(project-number-due)$
+<$list filter="[tag[Day]sort[sortable-date]]">
+<p>
+''<$link><$transclude field="title" mode="inline"/></$link>''<br>
+Topic: <$transclude field="class-topic" mode="inline"/><br>
+
+
+<$list filter="[title<currentTiddler>!project-number-due[]]" emptyMessage="//No Project Assignments Due<br>//">
+<$vars project-number-due={{!!project-number-due}}>
+Due: <$link to=<<indirect>>>Project <$transclude field="project-number-due" mode="inline"/>: <$transclude field="project-component-due" mode="inline"/></$link>
+<br>
+//<$transclude field="calendar-event" mode="inline"/>//

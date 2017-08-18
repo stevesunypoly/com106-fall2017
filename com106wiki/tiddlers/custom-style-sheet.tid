@@ -1,0 +1,51 @@
+created: 20170727202737911
+modified: 20170808164519418
+tags: $:/tags/Stylesheet
+title: custom-style-sheet
+type: text/vnd.tiddlywiki
+
+.week-start-class {
+    color: green;
+    background-color: yellow;
+}
+
+.component-description {
+    background-color: wheat;
+}
+
+.paragraph {
+    color: green;
+}
+
+.class-event {
+    font-weight: bold;
+}
+
+.class-topic {
+    font-weight: normal;
+}
+
+.calendar-event {
+    font-weight: normal;
+}
+
+.project-link {
+    font-weight: normal;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.project-component-title {
+    font-weight: bold;
+}
+
+.project-component-text {
+    font-weight: normal;
+}
+
+.project-due {
+    font-weight: bold;
+}
+

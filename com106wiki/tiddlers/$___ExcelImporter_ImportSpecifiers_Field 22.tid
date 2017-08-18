@@ -1,0 +1,10 @@
+created: 20170807181542081
+import-field-column: lc-component
+import-field-name: lc-title
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170807181558997
+title: $:/_ExcelImporter/ImportSpecifiers/Field 22
+type: text/vnd.tiddlywiki
+

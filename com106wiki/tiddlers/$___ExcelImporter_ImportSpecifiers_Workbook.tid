@@ -1,0 +1,8 @@
+caption: Course Calendar
+created: 20170726220127081
+import-spec-role: workbook
+list: [[$:/_ExcelImporter/ImportSpecifiers/Sheet 2]] [[$:/_ExcelImporter/ImportSpecifiers/Sheet 1]] $:/_ExcelImporter/ImportSpecifiers/Sheet
+modified: 20170807175600168
+title: $:/_ExcelImporter/ImportSpecifiers/Workbook
+type: text/vnd.tiddlywiki
+

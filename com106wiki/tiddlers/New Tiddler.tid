@@ -1,0 +1,14 @@
+created: 20170807183309904
+modified: 20170807192019140
+tags: 
+title: New Tiddler
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Project]each[]]">
+<$vars projectTiddler=<<currentTiddler>> project-number={{!!project-number}}>
+<$list filter="[tag[Project Component]each[]]">
+
+<$vars project-component=<<currentTiddler>> field-name={{!!lc-title}}>
+<h2>''<<currentTiddler>>''</h2>
+Due: <$list filter="[project-number-due<project-number>project-component-due<project-component>]"><$transclude field="title" mode="inline"/>
+<$transclude tiddler=<<projectTiddler>> field=<<field-name>> mode="block"/>

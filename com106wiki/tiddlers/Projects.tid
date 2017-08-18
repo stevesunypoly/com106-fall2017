@@ -1,0 +1,43 @@
+created: 20170726221747681
+modified: 20170808170740282
+tags: 
+title: Projects
+type: text/vnd.tiddlywiki
+
+\define indirect() [title<currentTiddler>field:project-component-due[$(field-value)$]
+
+\define indirect2() Project$(project-number)$
+
+<$list filter="[tag[Project]]">
+
+<$vars projectTiddler=<<currentTiddler>> project-number={{!!project-number}} >
+
+<div class="project-title">
+<$link to=<<indirect2>>>Project <$transclude field="project-number" mode="inline"/></$link>: 
+<$transclude field="project-title" mode="inline"/>
+</div>
+
+
+
+<div class="project-component-text"><$transclude field="outcome" mode="block"/>
+The {{!!project-title}} will contribute {{!!percent-grade}} towards the final class grade.
+</div>
+
+
+<$list filter="[tag[Project Component]each[]]">
+<$vars project-component=<<currentTiddler>> field-name={{!!lc-title}}>
+<span class="project-component-title"><<currentTiddler>>
+</span>
+<span class="project-component-text"><$macrocall $name="show-component-name" component=<<project-component>>/>
+</span>
+
+<div class="project-due">
+Due: 
+<$list filter="[project-number-due<project-number>project-component-due<project-component>]">
+<$link><$transclude field="title" mode="inline"/></$link>
+</$list>
+</div>
+
+<div class="project-component-text">
+<$transclude tiddler=<<projectTiddler>> field=<<field-name>> mode="block"/>
+</div>

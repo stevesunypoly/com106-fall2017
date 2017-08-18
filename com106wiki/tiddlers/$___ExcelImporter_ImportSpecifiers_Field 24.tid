@@ -1,0 +1,10 @@
+created: 20170807185801053
+import-field-column: project-number
+import-field-name: project-number
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170807185811298
+title: $:/_ExcelImporter/ImportSpecifiers/Field 24
+type: text/vnd.tiddlywiki
+

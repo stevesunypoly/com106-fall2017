@@ -1,0 +1,10 @@
+created: 20170728170337493
+import-field-column: design
+import-field-name: design
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170728170345605
+title: $:/_ExcelImporter/ImportSpecifiers/Field 12
+type: text/vnd.tiddlywiki
+

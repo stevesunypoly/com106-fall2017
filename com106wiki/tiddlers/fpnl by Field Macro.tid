@@ -1,0 +1,44 @@
+created: 20170405192958439
+import-type: flickr
+modified: 20170808141829124
+tags: fpnl $:/tags/Macro
+test-field: test-field-value
+title: fpnl by Field Macro
+type: text/vnd.tiddlywiki
+
+\define fpnl-by-field(myTiddler myField)
+<$set name="myTiddler" value="""$myTiddler$""" emptyValue=<<currentTiddler>>>
+<$set name="myField" value="""$myField$""">
+<$set name="fieldvalue" value={{$myTiddler$!!$myField$}}>
+<br>
+<!-- 1 myTiddler <<myTiddler>><br>
+2 myField <<myField>><br>
+2 fieldvalue <<fieldvalue>><br>
+-->
+
+<$list filter="[field:$myField$<fieldvalue>sort[title]first[]]">
+<$link to=<<currentTiddler>>>
+{{First}}</$link> ||
+</$list>
+<$list filter="[field:$myField$<fieldvalue>sort[title]before<myTiddler>]">
+<$link to=<<currentTiddler>>>
+Previous</$link> ||
+</$list>
+<<myField>>: <<fieldvalue>> ||
+<$list filter="[field:$myField$<fieldvalue>sort[title]after<myTiddler>]">
+<$link to=<<currentTiddler>>>
+Next</$link> ||
+</$list>
+<$list filter="[field:$myField$<fieldvalue>sort[title]last[]]">
+<$link to=<<currentTiddler>>>
+Last</$link> 
+</$list>
+<<designwrite "^^[[fpnlXY Macro]]^^">>
+\end
+
+<$macrocall $name="fpnl-by-field" myTiddler="MacroTestingPhoto" myField="import-type"/>
+
+```
+<$macrocall $name="fpnl-by-field" myTiddler="MacroTestingPhoto" myField="import-type"/>
+```
+

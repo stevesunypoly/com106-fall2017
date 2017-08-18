@@ -1,0 +1,10 @@
+created: 20170728170328547
+import-field-column: conceptualize
+import-field-name: conceptualize
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170728170337570
+title: $:/_ExcelImporter/ImportSpecifiers/Field 11
+type: text/vnd.tiddlywiki
+

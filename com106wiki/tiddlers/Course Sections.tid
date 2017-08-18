@@ -1,0 +1,16 @@
+created: 20170808160735454
+modified: 20170809171820622
+tags: Syllabus
+title: Course Sections
+type: text/vnd.tiddlywiki
+
+<div class="course-sections">
+<$list filter="[tag[Course Sections]each[]sort[section]]">
+<$vars section={{!!section}}>
+Section <<section>>
+<$transclude mode="block"/>
+<$list filter="[tag[Course Faculty]field:section<section>]">
+<$transclude mode="block"/>
+</$list>
+</$vars>
+</$list>

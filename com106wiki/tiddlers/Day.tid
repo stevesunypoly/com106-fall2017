@@ -1,0 +1,9 @@
+created: 20170808145059241
+list: {{sortable-dates}}
+modified: 20170809173902728
+title: Day
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Day]sort[sortable-date]]" template="$:/core/ui/TagTemplate">
+<$link to=<<currentTiddler>>><$transclude tiddler=<<currentTiddler>> field="title"/></$link>
+</$list>

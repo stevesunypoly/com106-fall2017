@@ -1,0 +1,10 @@
+created: 20170726220425245
+import-field-column: research
+import-field-name: research
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170728170306544
+title: $:/_ExcelImporter/ImportSpecifiers/Field 8
+type: text/vnd.tiddlywiki
+

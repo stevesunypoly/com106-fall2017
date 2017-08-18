@@ -1,0 +1,10 @@
+created: 20170726220227875
+import-field-column: day-date
+import-field-name: title
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170726220244227
+title: $:/_ExcelImporter/ImportSpecifiers/Field
+type: text/vnd.tiddlywiki
+

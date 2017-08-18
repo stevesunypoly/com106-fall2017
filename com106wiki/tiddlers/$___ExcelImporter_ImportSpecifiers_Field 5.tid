@@ -1,0 +1,10 @@
+created: 20170726220318476
+import-field-column: project-number-due
+import-field-name: project-number-due
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170807174422758
+title: $:/_ExcelImporter/ImportSpecifiers/Field 5
+type: text/vnd.tiddlywiki
+

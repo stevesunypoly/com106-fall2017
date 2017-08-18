@@ -1,0 +1,10 @@
+created: 20170807174422680
+import-field-column: project-component-due
+import-field-name: project-component-due
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170807174434870
+title: $:/_ExcelImporter/ImportSpecifiers/Field 18
+type: text/vnd.tiddlywiki
+

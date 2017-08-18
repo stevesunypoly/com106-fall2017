@@ -1,0 +1,7 @@
+created: 20170808150243978
+modified: 20170808150303403
+tags: 
+title: sortable-dates
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Day]sort[sortable-date]]"/><<currentTiddler>> </$list>

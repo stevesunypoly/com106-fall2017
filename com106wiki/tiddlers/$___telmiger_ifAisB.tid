@@ -1,0 +1,72 @@
+created: 20170409174526717
+creator: Thomas Elmiger
+modified: 20170808143516322
+modifier: Thomas Elmiger
+tags: $:/tags/Macro MyMacros
+title: $:/_telmiger/ifAisB
+type: text/vnd.tiddlywiki
+
+\define ifAisB(A:"_false_",B,then,else,error) 
+<$vars a="""$A$"""> 
+<$set name="next" filter="[<a>!prefix[_false_]]" value="ifAisB-compare" emptyValue="ifAisB-compare-error">
+<$macrocall $name=<<next>> A=<<a>> B="""$B$""" equal="""$then$""" else="""$else$""" error="""$error$"""/>
+</$set> 
+</$vars>
+\end
+
+\define ifAisB-compare(A,B,equal,else,error) 
+<$vars a="""$A$_ç-end-ç_""" b="""$B$""" equal="""$equal$""" else="""$else$"""> 
+<$set name="a-b" filter="[<a>removeprefix<b>]">
+<$set name="result" filter="[<a-b>prefix[_ç-end-ç_]]" value=<<equal>> emptyValue=<<else>>>
+<<result>>
+</$set> 
+</$set> 
+</$vars>
+\end
+
+\define ifAisB-compare-error(A,B,equal,else,error:"undefined")
+$error$
+\end
+
+
+<!-- !!! ifAisB Macro
+
+This allows to test if a value A – a variable or a text reference – matches a value B and to react accordingly. It works almost like an if-then-else statement. 
+
+<$details summary="Compare to reveal widgets">
+
+The process of ''comparison and production of output'' could also be achieved with convoluted sets of reveal widgets with match- and nomatch-conditions for the same reference and value. I tried to compare this variant and found no significant difference in performance. I decided to not use reveal because of the limitation of the reveal widget: You can’t use a variable instead of a text reference as A.
+
+Another difference I found was that I [[was not able|Test ifAisB R]] to use a transcluded text reference like `A={{!!reference}}` but had to use  `A="!!reference"` instead (see $:/_telmiger/ifAisB-reveal).
+
+</$details>
+
+!!!! Syntax
+
+```
+<$macrocall $name="ifAisB" A={{!!reference}} B="foo" then="this is foo" else="not foo" error="//reference is empty or does not exist//" />
+```
+
+!!!! Parameters
+* A: first value, can be a string, text reference or variable
+** this may be empty or not exist
+* B: string to test against (same types as A)
+** no testing is applied here
+* then: output if A = B (A is the same as B)
+* else: output if A != B (A is not the same as B)
+* error: output if A is empty or does not exist
+** optional, defaults to "undefined"
+
+!!!! Procedure
+# the macro //ifAisB// tests if A is empty – if this is the case the output will be the error message
+#* the macro //ifAisB-compare-error// produces the error message (include desired formatting in the message)
+# the macro //ifAisB-compare// compares the values A and B and produces the result
+#* a special string is appended to A (_ç-end-ç_)
+#* we try to remove B from the start of the teststring
+#* we check if _ç-end-ç_ now is the start of the teststring (if not, B was not equal to A)
+
+!!!! Known limitations
+* It is not possible to test directly if a string is empty (B="" will not work).
+** A workaround is shown in the [[testcases|Test ifAisB]] in example #3. 
+
+-->

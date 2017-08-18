@@ -1,0 +1,10 @@
+created: 20170728170355123
+import-field-column: portfolio
+import-field-name: portfolio
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170728170413142
+title: $:/_ExcelImporter/ImportSpecifiers/Field 15
+type: text/vnd.tiddlywiki
+

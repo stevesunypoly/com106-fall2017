@@ -1,0 +1,9 @@
+created: 20170726220147396
+import-sheet-name: calendar
+import-spec-role: sheet
+list: $:/_ExcelImporter/ImportSpecifiers/Row
+modified: 20170726220909184
+tags: 
+title: $:/_ExcelImporter/ImportSpecifiers/Sheet
+type: text/vnd.tiddlywiki
+

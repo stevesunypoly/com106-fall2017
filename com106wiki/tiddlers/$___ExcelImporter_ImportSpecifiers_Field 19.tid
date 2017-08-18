@@ -1,0 +1,10 @@
+created: 20170807175635390
+import-field-column: percent-grade
+import-field-name: percent-grade
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170807175645988
+title: $:/_ExcelImporter/ImportSpecifiers/Field 19
+type: text/vnd.tiddlywiki
+

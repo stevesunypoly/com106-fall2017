@@ -1,0 +1,10 @@
+created: 20170728183303064
+import-field-column: critique
+import-field-name: critique
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170807183949281
+title: $:/_ExcelImporter/ImportSpecifiers/Field 16
+type: text/vnd.tiddlywiki
+
