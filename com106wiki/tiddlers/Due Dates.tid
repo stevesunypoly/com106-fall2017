@@ -1,18 +1,10 @@
 created: 20170809173227606
-modified: 20170809173231292
+modified: 20170818215231457
 title: Due Dates
 type: text/vnd.tiddlywiki
 
-
-
-Due Dates: <br><$list filter="[tag[Day]!field:project-number-due[]sort[sortable-date]]">
+<$list filter="[tag[Days]!field:project-number-due[]sort[sortable-date]]">
 <$link><<currentTiddler>></$link>
 Project {{!!project-number-due}}: {{!!project-component-due}}
 <br>
 </$list>
-
-{{Transclusion||$:/core/ui/TagTemplate}}
-
-project-component-due
-
-project-number-due

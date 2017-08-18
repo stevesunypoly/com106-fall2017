@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
 class-topic: The world according to Pew I
-created: 20170810163450178
+created: 20170818220551640
 day-date: Mon Sep18
-modified: 20170810163450178
-project-component-due: 
-project-number-due: 
+lc-project-component-due: research
+modified: 20170818220551640
+project-component-due: Research
+project-number-due: 2
 sortable-date: 20170918000000000
-tags: Day
+tags: Days
 title: Mon Sep18
 type: text/vnd.tiddlywiki
 

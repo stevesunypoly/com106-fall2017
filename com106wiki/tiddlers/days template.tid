@@ -1,0 +1,33 @@
+created: 20170807194128051
+modified: 20170818222902334
+tags: $:/tags/ViewTemplate
+title: days template
+type: text/vnd.tiddlywiki
+
+\define indirect() Project$(project-number-due)$
+
+<$list filter="[is[current]tag[Days]]">
+<span class="class-topic">Topic: <$transclude field="class-topic" mode="inline"/><br></span>
+
+
+<$list filter="[title<currentTiddler>!project-number-due[]]" emptyMessage={{NoAssignments}}>
+<$vars project-number-due={{!!project-number-due}} lc-project-component-due={{!!lc-project-component-due}}>
+<span class="project-link">Due: <$link to=<<indirect>>>Project<$transclude field="project-number-due" mode="inline"/></$link>: <$link to={{!!project-component-due}}><$transclude field="project-component-due" mode="inline"/></$link>
+<$appear show="(Details)" hide="(Hide Details)">
+<$transclude tiddler=<<indirect>> field=<<lc-project-component-due>>/>
+</$appear>
+</span>
+</$vars>
+<br>
+</$list>
+
+<$list filter="[title<currentTiddler>!calendar-event[]]">
+<span class="calendar-event">Note: <$transclude field="calendar-event" mode="inline"/></span>
+<br>
+</$list>
+
+
+
+<div class="fpnl-days">
+<$macrocall $name="fpnl-by-tag" myTiddler=<<currentTiddler>> myTag="Days" mySortField="sortable-date"/>
+</div>

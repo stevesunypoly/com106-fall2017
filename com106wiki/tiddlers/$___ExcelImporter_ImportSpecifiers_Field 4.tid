@@ -1,10 +1,10 @@
-created: 20170726220310310
-import-field-column: class-event
-import-field-name: class-event
+created: 20170818182312415
+import-field-column: lc-project-component-due
+import-field-name: lc-project-component-due
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20170726220318550
+modified: 20170818182324806
 title: $:/_ExcelImporter/ImportSpecifiers/Field 4
 type: text/vnd.tiddlywiki
 

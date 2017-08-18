@@ -4,9 +4,9 @@ import-field-list-op: append
 import-field-name: tags
 import-field-source: constant
 import-field-type: string
-import-field-value: Day
+import-field-value: Days
 import-spec-role: field
-modified: 20170807180103901
+modified: 20170818172054769
 title: $:/_ExcelImporter/ImportSpecifiers/Field 6
 type: text/vnd.tiddlywiki
 

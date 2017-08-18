@@ -1,5 +1,5 @@
 created: 20170727202737911
-modified: 20170808164519418
+modified: 20170818222951522
 tags: $:/tags/Stylesheet
 title: custom-style-sheet
 type: text/vnd.tiddlywiki
@@ -9,8 +9,11 @@ type: text/vnd.tiddlywiki
     background-color: yellow;
 }
 
+.fpnl-days {
+    background-color: cornsilk;
+}
 .component-description {
-    background-color: wheat;
+    background-color: cornsilk;
 }
 
 .paragraph {
@@ -22,11 +25,11 @@ type: text/vnd.tiddlywiki
 }
 
 .class-topic {
-    font-weight: normal;
+    font-weight: bold;
 }
 
 .calendar-event {
-    font-weight: normal;
+    font-style: italic;
 }
 
 .project-link {
@@ -35,6 +38,15 @@ type: text/vnd.tiddlywiki
 
 .project-title {
     font-weight: bold;
+}
+
+.project-title-overview {
+    font-weight: bold;
+    font-size: 125%;
+}
+.days-overview {
+    font-weight: bold;
+    font-size: 125%;
 }
 
 .project-component-title {
@@ -49,3 +61,6 @@ type: text/vnd.tiddlywiki
     font-weight: bold;
 }
 
+.no-assignments {
+    font-style: italic;
+}

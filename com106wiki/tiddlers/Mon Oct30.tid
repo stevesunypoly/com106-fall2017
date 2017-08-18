@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
-class-topic: Project 4: Preview of Conceptualization Ideas
-created: 20170810163450590
+class-topic: COM 106: Topic Lecture 2
+created: 20170818220551561
 day-date: Mon Oct30
-modified: 20170810163450590
-project-component-due: 
-project-number-due: 
+lc-project-component-due: research
+modified: 20170818220551561
+project-component-due: Research
+project-number-due: 4
 sortable-date: 20171030000000000
-tags: Day
+tags: Days
 title: Mon Oct30
 type: text/vnd.tiddlywiki
 

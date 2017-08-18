@@ -1,13 +1,13 @@
 calendar-event: Thanksgiving
-class-event: No Class
-class-topic: Review of Project 5 Conceptualizations.
-created: 20170810163450491
+class-topic: No Class.
+created: 20170818220551514
 day-date: Wed Nov22
-modified: 20170810163450491
-project-component-due: Conceptualize
-project-number-due: 5
+lc-project-component-due: 
+modified: 20170818220551514
+project-component-due: 
+project-number-due: 
 sortable-date: 20171122000000000
-tags: Day
+tags: Days
 title: Wed Nov22
 type: text/vnd.tiddlywiki
 

@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
 class-topic: Review Project 2 submissions.
-created: 20170810163450339
+created: 20170818220551596
 day-date: Wed Oct11
-modified: 20170810163450339
+lc-project-component-due: design
+modified: 20170818220551596
 project-component-due: Design
 project-number-due: 3
 sortable-date: 20171011000000000
-tags: Day
+tags: Days
 title: Wed Oct11
 type: text/vnd.tiddlywiki
 

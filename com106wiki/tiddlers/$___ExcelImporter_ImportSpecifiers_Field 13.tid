@@ -1,10 +1,10 @@
 created: 20170728170345526
-import-field-column: produce
-import-field-name: produce
+import-field-column: production
+import-field-name: production
 import-field-source: column
 import-field-type: string
 import-spec-role: field
-modified: 20170728170355190
+modified: 20170818175029153
 title: $:/_ExcelImporter/ImportSpecifiers/Field 13
 type: text/vnd.tiddlywiki
 

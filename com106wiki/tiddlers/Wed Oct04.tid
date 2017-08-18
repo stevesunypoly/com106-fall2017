@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
 class-topic: Digital Media & Climate Change II
-created: 20170810163450402
+created: 20170818220551608
 day-date: Wed Oct04
-modified: 20170810163450403
-project-component-due: Produce
+lc-project-component-due: production
+modified: 20170818220551608
+project-component-due: Production
 project-number-due: 2
 sortable-date: 20171004000000000
-tags: Day
+tags: Days
 title: Wed Oct04
 type: text/vnd.tiddlywiki
 

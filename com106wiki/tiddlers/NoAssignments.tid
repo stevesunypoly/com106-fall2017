@@ -1,7 +1,7 @@
 created: 20170808142218911
-modified: 20170808160052491
+modified: 20170818184138724
 tags: 
 title: NoAssignments
 type: text/vnd.tiddlywiki
 
-<div class="project-link">No Project Assignments Due Today</div>
+<span class="no-assignments">No Project Assignments Due Today<br></span>

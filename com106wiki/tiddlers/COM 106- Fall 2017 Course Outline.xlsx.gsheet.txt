@@ -1,1 +1,0 @@
-{"url": "https://docs.google.com/open?id=10ocX9D53Mu7LuICRE4ccY1aAdW22G27aH6BUkXrGJJc", "doc_id": "10ocX9D53Mu7LuICRE4ccY1aAdW22G27aH6BUkXrGJJc", "email": "steve@sunyit.edu", "resource_id": "document:10ocX9D53Mu7LuICRE4ccY1aAdW22G27aH6BUkXrGJJc"}

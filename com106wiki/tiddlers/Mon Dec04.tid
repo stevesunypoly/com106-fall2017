@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
-class-topic: Portfolio Review. Princples of Design
-created: 20170810163450690
+class-topic: Project 5 Presentations
+created: 20170818220551490
 day-date: Mon Dec04
-modified: 20170810163450690
-project-component-due: 
-project-number-due: 
+lc-project-component-due: production
+modified: 20170818220551490
+project-component-due: Production
+project-number-due: 5
 sortable-date: 20171204000000000
-tags: Day
+tags: Days
 title: Mon Dec04
 type: text/vnd.tiddlywiki
 

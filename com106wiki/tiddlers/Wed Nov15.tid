@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Portfolio Review
-class-topic: COM 106: Topic Lecture 3
-created: 20170810163450532
+class-topic: TBD
+created: 20170818220551526
 day-date: Wed Nov15
-modified: 20170810163450532
-project-component-due: Produce
+lc-project-component-due: critique
+modified: 20170818220551526
+project-component-due: Critique
 project-number-due: 4
 sortable-date: 20171115000000000
-tags: Day
+tags: Days
 title: Wed Nov15
 type: text/vnd.tiddlywiki
 

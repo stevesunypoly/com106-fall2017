@@ -1,11 +1,10 @@
 created: 20170405184231651
-modified: 20170808160144183
+modified: 20170818173604687
 tags: $:/tags/Macro
 title: fpnl by single tag Macro sorted
 type: text/vnd.tiddlywiki
 
 \define fpnl-by-tag(myTiddler myTag mySortField)
-<div class="fpnl">
 <$set name="myTiddler" value="""$myTiddler$""">
 <$set name="mySortField" value=$mySortField$>
 <$set name="myTag" value="""$myTag$""">
@@ -27,7 +26,6 @@ type: text/vnd.tiddlywiki
 <<currentTiddler>></$link> 
 </$list>
 <<designwrite "^^[[fpnlX Macro]]^^">>
-</div>
 \end
 
 <$macrocall $name="fpnl-by-tag" myTiddler=<<currentTiddler>> myTag="This is my Test Tag" mySortField="sortable-date">

@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
-class-topic: Review Project 1 Submissions. Review project conceptualization process.
-created: 20170810163450172
+class-topic: Review Project 1 Submissions
+created: 20170818220551636
 day-date: Wed Sep20
-modified: 20170810163450172
-project-component-due: Conceptualize
+lc-project-component-due: conceptualization
+modified: 20170818220551636
+project-component-due: Conceptualization
 project-number-due: 2
 sortable-date: 20170920000000000
-tags: Day
+tags: Days
 title: Wed Sep20
 type: text/vnd.tiddlywiki
 

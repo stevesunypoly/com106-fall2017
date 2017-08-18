@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
 class-topic: Project 5 Presentations
-created: 20170810163450685
+created: 20170818220551485
 day-date: Wed Dec06
-modified: 20170810163450685
-project-component-due: Produce
+lc-project-component-due: critique
+modified: 20170818220551486
+project-component-due: Critique
 project-number-due: 5
 sortable-date: 20171206000000000
-tags: Day
+tags: Days
 title: Wed Dec06
 type: text/vnd.tiddlywiki
 

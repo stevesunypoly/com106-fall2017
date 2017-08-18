@@ -1,18 +1,22 @@
 created: 20170726221032191
-modified: 20170807202958001
+modified: 20170818191758491
 tags: 
 title: Class Schedule
 type: text/vnd.tiddlywiki
 
-\define indirect() Project$(project-number-due)$
-<$list filter="[tag[Day]sort[sortable-date]]">
-<p>
-''<$link><$transclude field="title" mode="inline"/></$link>''<br>
-Topic: <$transclude field="class-topic" mode="inline"/><br>
+\define indirect() Project $(project-number-due)$
+<$list filter="[tag[Days]sort[sortable-date]]">
 
-
-<$list filter="[title<currentTiddler>!project-number-due[]]" emptyMessage="//No Project Assignments Due<br>//">
-<$vars project-number-due={{!!project-number-due}}>
-Due: <$link to=<<indirect>>>Project <$transclude field="project-number-due" mode="inline"/>: <$transclude field="project-component-due" mode="inline"/></$link>
+<span class="days-overview"><$transclude field="title" mode="inline"/></span><br>
+<span class="class-topic">Topic: <$transclude field="class-topic" mode="inline"/><br></span>
+<$list filter="[title<currentTiddler>!project-number-due[]]" emptyMessage={{NoAssignments}}>
+<$vars project-number-due={{!!project-number-due}} lc-project-component-due={{!!lc-project-component-due}}>
+<span class="project-link">Due: Project <$transclude field="project-number-due" mode="inline"/> <$transclude field="project-component-due" mode="inline"/>
+</span>
+</$vars>
 <br>
-//<$transclude field="calendar-event" mode="inline"/>//
+</$list>
+<$list filter="[title<currentTiddler>!calendar-event[]]">
+<span class="calendar-event">Note: <$transclude field="calendar-event" mode="inline"/></span>
+<br>
+</$list>

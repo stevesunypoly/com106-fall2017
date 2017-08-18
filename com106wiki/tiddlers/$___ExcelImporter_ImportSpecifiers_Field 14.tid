@@ -4,9 +4,9 @@ import-field-list-op: append
 import-field-name: tags
 import-field-source: constant
 import-field-type: string
-import-field-value: Project
+import-field-value: Projects
 import-spec-role: field
-modified: 20170807180027013
+modified: 20170818172032109
 title: $:/_ExcelImporter/ImportSpecifiers/Field 14
 type: text/vnd.tiddlywiki
 

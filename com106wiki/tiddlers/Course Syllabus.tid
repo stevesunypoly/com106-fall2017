@@ -1,0 +1,15 @@
+created: 20170818212804275
+modified: 20170818221844594
+tags: 
+title: Course Syllabus
+type: text/vnd.tiddlywiki
+
+<h2>Navigable</h2>
+
+ * Use the buttons above to navigate to specific days, projects or due dates
+* Click on {{$:/core/ui/Buttons/home}} to restart
+* Click on {{$:/core/ui/Buttons/close}} to go back
+<h2>Printable Versions</h2>
+
+* [[Syllabus - Section 01 (Schneider)|COM 106-01 Introduction to Digital Media and Design]]
+* [[Syllabus - Section 02 (Yucel)|COM 106-02 Introduction to Digital Media and Design]]

@@ -1,0 +1,9 @@
+created: 20170818221334562
+modified: 20170818221552689
+tags: $:/tags/ViewTemplate
+title: project components template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[Project Components]]">
+<$transclude field="component-description" mode="block"/>
+</$list>

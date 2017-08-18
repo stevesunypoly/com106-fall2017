@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: Friday Workshop
-class-topic: Welcome to Friday Workshops
-created: 20170810163450218
+class-topic: Welcome to Friday Interdisciplinary Design Lab.
+created: 20170818220551410
 day-date: Fri Sep01
-modified: 20170810163450218
-project-component-due: Conceptualize
+lc-project-component-due: conceptualization
+modified: 20170818220551410
+project-component-due: Conceptualization
 project-number-due: 1
 sortable-date: 20170901000000000
-tags: Day
+tags: Days
 title: Fri Sep01
 type: text/vnd.tiddlywiki
 

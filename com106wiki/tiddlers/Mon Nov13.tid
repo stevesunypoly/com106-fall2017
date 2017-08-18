@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
 class-topic: Review of Project 4 Designs. Preview of Project 5.
-created: 20170810163450541
+created: 20170818220551531
 day-date: Mon Nov13
-modified: 20170810163450541
-project-component-due: 
-project-number-due: 
+lc-project-component-due: production
+modified: 20170818220551531
+project-component-due: Production
+project-number-due: 4
 sortable-date: 20171113000000000
-tags: Day
+tags: Days
 title: Mon Nov13
 type: text/vnd.tiddlywiki
 

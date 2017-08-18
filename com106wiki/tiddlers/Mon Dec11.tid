@@ -1,13 +1,13 @@
 calendar-event: Final Exams Begin
-class-event: No Class
 class-topic: 
-created: 20170810163450665
+created: 20170818220551476
 day-date: Mon Dec11
-modified: 20170810163450665
-project-component-due: Project 6: Final Portfolio
-project-number-due: 
+lc-project-component-due: production
+modified: 20170818220551476
+project-component-due: Production
+project-number-due: 7
 sortable-date: 20171211000000000
-tags: Day
+tags: Days
 title: Mon Dec11
 type: text/vnd.tiddlywiki
 

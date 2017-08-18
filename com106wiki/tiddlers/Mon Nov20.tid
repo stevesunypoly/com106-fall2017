@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
-class-topic: COM 106: Topic Lecture 3
-created: 20170810163450509
+class-topic: Review of Project 4 Submissions.
+created: 20170818220551518
 day-date: Mon Nov20
-modified: 20170810163450509
-project-component-due: 
-project-number-due: 
+lc-project-component-due: conceptualization
+modified: 20170818220551518
+project-component-due: Conceptualization
+project-number-due: 5
 sortable-date: 20171120000000000
-tags: Day
+tags: Days
 title: Mon Nov20
 type: text/vnd.tiddlywiki
 

@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
-class-topic: Creating a portfolio. Review of platforms (wordpress, weebly, etc.). Begin Pew data discussion.
-created: 20170810163450189
+class-topic: Review of portfolio platforms (wordpress, weebly, etc.). Begin Pew data discussion.
+created: 20170818220551378
 day-date: Wed Sep13
-modified: 20170810163450189
-project-component-due: Produce
+lc-project-component-due: production
+modified: 20170818220551378
+project-component-due: Production
 project-number-due: 1
 sortable-date: 20170913000000000
-tags: Day
+tags: Days
 title: Wed Sep13
 type: text/vnd.tiddlywiki
 

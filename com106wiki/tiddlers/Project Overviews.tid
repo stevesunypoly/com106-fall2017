@@ -1,35 +1,56 @@
 created: 20170808171030212
-modified: 20170808171309026
+modified: 20170818212604958
 tags: 
 title: Project Overviews
 type: text/vnd.tiddlywiki
 
 \define indirect() [title<currentTiddler>field:project-component-due[$(field-value)$]
-
 \define indirect2() Project$(project-number)$
 
-<$list filter="[tag[Project]]">
+<span class="project-title-overview">
+Projects Overview<br>
+</span>
+<span class="project-component-text">
+There are seven projects in this class, each making a specific contribution to the ''course'' grade:<br><br>
+<$list filter="[tag[Projects]]">
+<<currentTiddler>> - {{!!project-title}} - {{!!percent-grade}}<br>
+</$list>
+<br>
+Projects 1, 2, 4 and 5 each consist of several parts, with each part making a specific contribution to the ''project'' grade:<br>
+<$list filter="[tag[Project Components]]">
+<p>
+''<<currentTiddler>>'' ({{!!percent-grade}})<br>{{!!component-description}}
+</p>
+</$list>
+</span>
+The projects are detailed below:<br>
 
-<$vars projectTiddler=<<currentTiddler>> project-number={{!!project-number}} >
+<$list filter="[tag[Projects]]">
+<$vars projectTiddler=<<currentTiddler>> project-number={{!!project-number}}>
+<span class="project-title-overview">
+Project {{!!project-number}}: <$transclude field="project-title" mode="inline"/><br>
+</span>
+<span class="project-component-title">
+<br>Outcome:
+</span>
+<span class="project-component-text">
+<$transclude field="outcome" mode="block"/>
+<p>This project will contribute {{!!percent-grade}} of the course grade</p>
+</span>
 
-<div class="project-title">
-<$link to=<<indirect2>>>Project <$transclude field="project-number" mode="inline"/></$link>: 
-<$transclude field="project-title" mode="inline"/>
-</div>
-
-
-
-<div class="project-component-text"><$transclude field="outcome" mode="block"/>
-The {{!!project-title}} will contribute {{!!percent-grade}} towards the final class grade.
-</div>
-
-
-<$list filter="[tag[Project Component]each[]]">
+<$list filter="[tag[Project Components]each[]]">
 <$vars project-component=<<currentTiddler>> field-name={{!!lc-title}}>
 <span class="project-component-title"><<currentTiddler>>
 </span>
-<span class="project-component-text">
+<$list filter="[project-number-due<project-number>project-component-due<project-component>]" emptyMessage="<p>No <<currentTiddler>> required for this project</p>">
+<span class="project-due">
+<br>Due: <$transclude field="title" mode="inline"/>
 </span>
-<$list filter="[project-number-due<project-number>project-component-due<project-component>]">
-Due:: <$transclude field="title" mode="inline"/><br>
+<span class="project-component-text">
+<$transclude tiddler=<<projectTiddler>> field=<<field-name>> mode="block"/>
+</span>
 </$list>
+</$vars>
+</$list>
+
+

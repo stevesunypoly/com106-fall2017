@@ -1,13 +1,13 @@
 calendar-event: 
-class-event: COM 106 Class
-class-topic: Creating portfolios. The world acording to Pew III
-created: 20170810163450148
+class-topic: The world acording to Pew III
+created: 20170818220551620
 day-date: Wed Sep27
-modified: 20170810163450148
+lc-project-component-due: design
+modified: 20170818220551620
 project-component-due: Design
 project-number-due: 2
 sortable-date: 20170927000000000
-tags: Day
+tags: Days
 title: Wed Sep27
 type: text/vnd.tiddlywiki
 
