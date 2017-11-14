@@ -1,0 +1,21 @@
+created: 20170920145502319
+modified: 20170920145713606
+tags: More
+title: Project 1 Crits
+type: text/vnd.tiddlywiki
+
+\define indirect() $(name)$: $(project)$-$(component)$
+<$list filter="[tag[Crits]sort[title]]">
+{{!!student}}<br>
+<$list filter="[tag<currentTiddler>]">
+<$vars name={{!!name}} project={{!!project}} component={{!!component}} email={{!!email}}
+link={{!!link}}>
+
+* <$link to=<<currentTiddler>>><<indirect>></$link><br>
+</$vars>
+</$list>
+</$list>
+
+
+
+

@@ -1,0 +1,21 @@
+created: 20171030143725403
+list: 
+modified: 20171030152916903
+tags: MotherOfAllDemos
+title: Answers to Questions to Ponder
+type: text/vnd.tiddlywiki
+
+<<tabs "[tag[Answers to Questions to Ponder]]">>
+
+<hr>
+Importing answers from google form process:
+
+# Download [[Responses|https://docs.google.com/a/sunyit.edu/spreadsheets/d/1ZBz0uHwPljW2IZeeqZvp-vu_XQhCrQEo4EqOyGzkG1g/edit?usp=sharing]] as xlsx
+
+
+
+
+
+
+# [[Set|$:/plugins/tiddlywiki/xlsx-utils/controls]] workbook to //Mother of All Demos Responses//
+# {{$:/core/ui/Buttons/import}}

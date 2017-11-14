@@ -1,0 +1,26 @@
+created: 20170918150623025
+modified: 20170918152224632
+slidenum: 1
+tags: [[Digital Life]]
+title: Assets, Actions, Attitudes
+type: text/vnd.tiddlywiki
+
+Pew developed typology along three dimensions of people’s relationship to information and communications technology: <br>
+ 
+<p>''Assets'' <$appear show=">>" hide="<<" state="$:/assets">
+
+* Use of the internet, cell phones and other devices that connect to the internet (e.g., video or digital cameras). 
+* Use of services that facilitate digital consumption, participation, and electronic communication (e.g., broadband and non-voice applications on cell phones).
+</$appear></p>
+
+<p>''Actions'' <$appear show=">>" hide="<<" state="$/actions">
+
+* Activities in which people engage, such as downloading audio and video, generating their own online content, and a variety of things they do with their cell phones and computers. 
+* Frequency of online use.
+</$appear></p>
+
+<p>''Attitudes'' <$appear show=">>" hide="<<" state="$attitudes">
+
+* How people see ICTs helping them to be more productive at work, to pursue hobbies, and to keep up with family and friends
+* Views about information overload and technology’s capacity to offer more control over their lives.
+</$appear></p>

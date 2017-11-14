@@ -1,0 +1,11 @@
+created: 20171030152030385
+modified: 20171030152104170
+tags: [[Answers to Questions to Ponder]]
+title: MOAD-Behaviors
+type: text/vnd.tiddlywiki
+
+!! What <<yw behaviors>> are being shown to individuals for the first time?
+<$list filter="[prefix[MOAD Response ]]">
+{{!!email}}: <$view field="behavior" mode="block"/>
+</$list>
+

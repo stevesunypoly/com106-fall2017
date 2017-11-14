@@ -1,0 +1,26 @@
+created: 20170906151335636
+modified: 20170906160533531
+tags: 
+title: Wed Sep06-desc
+type: text/vnd.tiddlywiki
+
+<h2>Join: https://zoom.us/j/217467742</h2>
+<h2>Web: http://people.sunyit.edu/~steve/classes/com106 - navigate to Wed Sep06 under <<tag Days>></h2>
+<h1>Review conceptualizations by Platform</h1>
+<$list filter="[tag[Platforms]]">
+<h2><<currentTiddler>></h2>
+<$list filter="[tag<currentTiddler>tag[ReviewedSubmissions]project[Project 1: Digital Autobiography]]">
+{{!!name}} <$link to=<<currentTiddler>>>>></$link><br>
+<$appear show="Show" hide="Hide" state="x1">
+<$transclude mode="block"/>/
+<a href={{!!link}} target="_blank">Link</a> || 
+<$appear show="Show" hide="Hide">
+<iframe src={{!!link}} width=100% height=400>
+</$appear><br>
+</$list>
+</$appear>
+<br>
+</$list>
+</$list>
+
+

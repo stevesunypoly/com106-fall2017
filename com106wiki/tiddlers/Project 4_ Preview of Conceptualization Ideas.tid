@@ -1,0 +1,13 @@
+created: 20171023151727777
+modified: 20171023152607353
+title: Project 4: Preview of Conceptualization Ideas
+type: text/vnd.tiddlywiki
+
+!! See [[Project4]]
+!! Discuss/review these submitted concepts:<ul>
+<$list filter="[tag[Submissions]project[Project 4: Digital Media & Climate Change]component[Conceptualization]sort[timestamp]]">
+<li><$link to=<<currentTiddler>>>{{!!name}}</$link></li>
+</$list>
+</ul>
+!! How well do each of these submissions capture the [[Project4-Concept]] requirements: 
+{{Project4-Concept}}

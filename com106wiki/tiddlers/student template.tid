@@ -1,0 +1,34 @@
+created: 20170920022656747
+modified: 20170920134057384
+tags: $:/tags/ViewTemplate
+title: student template
+type: text/vnd.tiddlywiki
+
+\define indirect() $(project)$-$(component)$
+<$list filter="[is[current]tag[Students]]">
+<$list filter="[tag[Submissions]email<currentTiddler>first[]]">
+<h1>{{!!name}}</h1>
+</$list>
+<$list filter="[tag[Submissions]email<currentTiddler>sort[project]]">
+<$vars name={{!!name}} project={{!!project}} component={{!!component}} email={{!!email}}
+link={{!!link}}>
+
+<a href={{!!link}} target="_blank"><<indirect>></a> 
+<$appear show=">>" hide="<<" state=<<indirect>>>
+<$button>
+<$action-setfield 
+$tiddler=<<indirect>>
+ tags="ReviewedSubmissions" link=<<link>> project=<<project>> component=<<component>> email=<<email>> name=<<name>> />
+<$action-sendmessage $message="tm-edit-tiddler" $param=<<indirect>>/>
+Review <<indirect>>
+</$button>
+<iframe src={{!!link}} width="100%" height="400">
+</$appear><br>
+</$vars>
+</$list>
+
+
+
+
+
+

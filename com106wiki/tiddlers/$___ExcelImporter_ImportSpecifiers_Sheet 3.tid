@@ -1,0 +1,8 @@
+created: 20170902105300628
+import-sheet-name: Form Responses 1
+import-spec-role: sheet
+list: [[$:/_ExcelImporter/ImportSpecifiers/Row 6]] [[$:/_ExcelImporter/ImportSpecifiers/Row 5]] [[$:/_ExcelImporter/ImportSpecifiers/Row 4]] [[$:/_ExcelImporter/ImportSpecifiers/Row 3]]
+modified: 20171011140207788
+title: $:/_ExcelImporter/ImportSpecifiers/Sheet 3
+type: text/vnd.tiddlywiki
+

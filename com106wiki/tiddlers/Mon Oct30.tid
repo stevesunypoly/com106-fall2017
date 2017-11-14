@@ -1,13 +1,14 @@
 calendar-event: 
-class-topic: COM 106: Topic Lecture 2
+class-topic: The Mother of All Demos!
 created: 20170818220551561
 day-date: Mon Oct30
-lc-project-component-due: research
-modified: 20170818220551561
-project-component-due: Research
-project-number-due: 4
+lc-project-component-due: 
+modified: 20171030154136719
+project-component-due: 
+project-number-due: 
 sortable-date: 20171030000000000
 tags: Days
 title: Mon Oct30
 type: text/vnd.tiddlywiki
 
+''Review'': [[Project 4 - Quick Review of POD referenced in Designs]]

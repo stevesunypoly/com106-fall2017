@@ -1,0 +1,19 @@
+created: 20171011135717486
+modified: 20171011143409308
+tags: 
+title: PODs in Production
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[PrinciplesOfDesign]sort[title]]">
+<$vars pod=<<currentTiddler>>>
+<$list filter="[tag[Submissions]tag<currentTiddler>component[Production]each<pod>]">
+<$link><<pod>></$link> 
+<ul>
+<$list filter="[tag[Submissions]component[Production]tag<pod>]">
+<li><$link to=<<currentTiddler>>>{{!!name}}^^ ({{!!project}} {{!!component}})^^</$link></li>
+</$list>
+</ul>
+</$list>
+</$vars>
+</$list>
+

@@ -1,13 +1,14 @@
 calendar-event: 
-class-topic: COM 106: Topic Lecture 3
+class-topic: Project 4 - Review of POD referenced in Designs
 created: 20170818220551557
 day-date: Wed Nov01
 lc-project-component-due: conceptualization
-modified: 20170818220551557
-project-component-due: Conceptualization
-project-number-due: 4
+modified: 20171101152803098
+project-component-due: 
+project-number-due: 
 sortable-date: 20171101000000000
 tags: Days
 title: Wed Nov01
 type: text/vnd.tiddlywiki
 
+[[Advising for Spring 2018]]

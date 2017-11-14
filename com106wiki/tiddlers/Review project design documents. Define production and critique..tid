@@ -1,0 +1,19 @@
+created: 20170913142354030
+modified: 20170913151843557
+title: Review project design documents. Define production and critique.
+type: text/vnd.tiddlywiki
+
+<h1>Review Project Design Documents</h1>
+<$appear show="Show links" hide="Hide links">
+{{Reviewing Submissions}}
+</$appear>
+<h1>Production</h1>
+
+* <$transclude tiddler="Production" field="component-description" mode="block"/>
+* <$transclude tiddler="Project1" field="production" mode="block"/>
+<h1>Critique</h1>
+
+* <$transclude tiddler="Critique" field="component-description" mode="block"/>
+* <$transclude tiddler="Project1" field="critique" mode="block"/>
+
+

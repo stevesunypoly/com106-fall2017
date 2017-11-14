@@ -1,0 +1,12 @@
+created: 20171030151018508
+import-field-column: Email Address
+import-field-name: title
+import-field-prefix: MOAD Response 
+import-field-source: column
+import-field-suffix: 
+import-field-type: string
+import-spec-role: field
+modified: 20171030172756973
+title: $:/_ExcelImporter/ImportSpecifiers/Field 47
+type: text/vnd.tiddlywiki
+

@@ -1,0 +1,12 @@
+created: 20171030152208096
+modified: 20171030152229669
+tags: [[Answers to Questions to Ponder]]
+title: MOAD-Discovery
+type: text/vnd.tiddlywiki
+
+!! What is the <<yw "method of discovery">> that Englebart et al proposes?
+
+<$list filter="[prefix[MOAD Response ]]">
+{{!!email}}: <$view field="discovery" mode="block"/>
+</$list>
+

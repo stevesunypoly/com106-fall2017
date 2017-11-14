@@ -1,0 +1,10 @@
+created: 20171011140041625
+import-field-column: Principle of Design 1
+import-field-name: title
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171011140056549
+title: $:/_ExcelImporter/ImportSpecifiers/Field 37
+type: text/vnd.tiddlywiki
+

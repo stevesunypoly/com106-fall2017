@@ -1,0 +1,21 @@
+created: 20170920145411604
+modified: 20170920150046608
+tags: More
+title: Project 1 PODs
+type: text/vnd.tiddlywiki
+
+\define indirect() $(name)$: $(project)$-$(component)$
+<$list filter="[tag[PODCritique]sort[title]]">
+<h1><<currentTiddler>></h1>
+<$list filter="[tag<currentTiddler>]">
+<$vars name={{!!name}} project={{!!project}} component={{!!component}} email={{!!email}}
+link={{!!link}}>
+
+* <$link to=<<currentTiddler>>><<indirect>></$link><br>
+</$vars>
+</$list>
+</$list>
+
+
+
+

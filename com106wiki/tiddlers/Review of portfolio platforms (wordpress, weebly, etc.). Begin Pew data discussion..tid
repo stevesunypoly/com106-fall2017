@@ -1,0 +1,24 @@
+created: 20170913151926254
+modified: 20170913155929479
+title: Review of portfolio platforms (wordpress, weebly, etc.). Begin Pew data discussion.
+type: text/vnd.tiddlywiki
+
+[[Zoom|https://zoom.us/j/7694381317]]
+
+<h1> Portfolio Platforms</h1>
+
+* Weebly
+* Wordpress
+* Google Sites
+
+<h1> Research for Project 2 Using Pew Data </h1>
+
+<h2>Review Project 2</h2>
+
+* Outcome: <$transclude tiddler="Project2" field="outcome" mode="block"/>
+* Research: <$transclude tiddler="Project2" field="research" mode="block"/>
+** Visit [[Pew Web Site|http://www.pewresearch.org/]]
+** Investigate [[Topics|http://www.pewinternet.org/topics/]]
+** Identify 5-7 topics that might be of helpful for this project, and review some of the links presented. <br><br>
+* Concept: <$transclude tiddler="Project2" field="conceptualization" mode="block"/>
+

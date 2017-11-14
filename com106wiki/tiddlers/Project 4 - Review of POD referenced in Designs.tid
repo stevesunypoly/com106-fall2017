@@ -1,0 +1,22 @@
+created: 20171030153307406
+modified: 20171113142824526
+tags: 
+title: Project 4 - Review of POD referenced in Designs
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[PrinciplesOfDesign]sort[modified]]">
+<$vars pod=<<currentTiddler>>>
+
+
+<$list filter="[tag<currentTiddler>tag[Submissions]project[Project 4: Digital Media & Climate Change]component[Design]first[]]">
+<h2><$link to=<<pod>>><<pod>></$link></h2>
+</$list>
+<$list filter="[tag<currentTiddler>tag[Submissions]project[Project 4: Digital Media & Climate Change]component[Design]]">
+-- {{!!name}}: <a href={{!!link}} target="_blank">Design</a><br>
+</$list>
+
+</$vars>
+</$list>
+
+
+

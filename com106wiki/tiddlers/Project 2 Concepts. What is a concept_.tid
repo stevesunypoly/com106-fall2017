@@ -1,0 +1,17 @@
+created: 20170925155216053
+modified: 20170925155258434
+title: Project 2 Concepts. What is a concept?
+type: text/vnd.tiddlywiki
+
+\define indirect() $(name)$-$(project)$-$(component)$
+
+<h1>{{$:/ProjectToReview}}: {{$:/ProjectComponent}}</h1>
+<$vars ProjectToReview={{$:/ProjectToReview}} ProjectComponent={{$:/ProjectComponent}}>
+
+<$list filter="[tag[Submissions]sort[name]component{$:/ProjectComponent}project{$:/ProjectToReview}!sort[name]]">
+
+<$vars name={{!!name}} project={{!!project}} component={{!!component}} email={{!!email}}
+link={{!!link}}>
+<$link to=<<indirect>>>>></$link> || <$link to=<<currentTiddler>>>{{!!name}}: {{!!project}} {{!!component}}</$link>
+</$vars>
+</$list>

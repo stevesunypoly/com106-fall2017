@@ -1,0 +1,10 @@
+created: 20171030150849012
+import-field-column: What technology is being shown to individuals for the first time?
+import-field-name: technology
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171030150913551
+title: $:/_ExcelImporter/ImportSpecifiers/Field 44
+type: text/vnd.tiddlywiki
+

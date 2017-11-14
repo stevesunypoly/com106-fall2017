@@ -1,0 +1,16 @@
+created: 20170920143907402
+modified: 20170920144544061
+tags: 
+title: make crit tiddlers
+type: text/vnd.tiddlywiki
+
+\define indirect() Crit-$(email)$
+<$list filter="[tag[Students]]">
+<$vars email=<<currentTiddler>>>
+<<indirect>>:
+<$button>
+do it
+<$action-setfield $tiddler=<<indirect>> tags="Crits" student=<<email>>/>
+</$button><br>
+</$vars>
+</$list>

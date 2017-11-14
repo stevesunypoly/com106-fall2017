@@ -1,0 +1,10 @@
+created: 20171030151531975
+import-field-column: Email Address
+import-field-name: email
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171030151541643
+title: $:/_ExcelImporter/ImportSpecifiers/Field 49
+type: text/vnd.tiddlywiki
+

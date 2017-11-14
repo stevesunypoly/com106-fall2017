@@ -1,6 +1,6 @@
 created: 20170726220927045
-modified: 20170726220928129
+modified: 20171107154957661
 title: $:/config/plugins/tiddlywiki/xlsx-utils/default-import-spec
 type: text/vnd.tiddlywiki
 
-$:/_ExcelImporter/ImportSpecifiers/Workbook
+$:/_ExcelImporter/ImportSpecifiers/Workbook 1

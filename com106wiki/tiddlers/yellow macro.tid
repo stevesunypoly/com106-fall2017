@@ -1,0 +1,11 @@
+created: 20171030142142149
+modified: 20171030142529234
+tags: $:/tags/Macro
+title: yellow macro
+type: text/vnd.tiddlywiki
+
+\define yw(text)
+<font style="background-color:yellow">$text$</font>
+\end
+
+<<yw "a String of Howdy">> is the word to be highlighted. Nothing else.

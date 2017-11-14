@@ -1,0 +1,12 @@
+created: 20170902145207689
+modified: 20170902154526560
+tags: 
+title: Writing comments on submissions
+type: text/vnd.tiddlywiki
+
+# Student submits via google form, providing email, name, project, component, link and timestamp. Timestamp is highly likely to be uniq; timestamp/email will be uniq
+# Import submissions using xlsx import, rendering each submission as a tiddler identified by timestemp
+# Process imported submissions
+## rename tiddler with name, project component and a sequence (number it sequentially)
+## build iframe or link to submitted document
+## allow for comments, using text field of new tiddler

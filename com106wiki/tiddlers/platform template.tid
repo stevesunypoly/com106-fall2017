@@ -1,0 +1,15 @@
+created: 20170920135449675
+modified: 20170920140231481
+tags: $:/tags/ViewTemplate
+title: platform template
+type: text/vnd.tiddlywiki
+
+\define indirect() $(project)$-$(component)$
+<$list filter="[is[current]tag[Platforms]]">
+<$list filter="[tag<currentTiddler>component[Production]]">
+<$link><<currentTiddler>></$link><br>
+</$list>
+
+
+
+

@@ -1,0 +1,15 @@
+created: 20171011143452234
+modified: 20171011145138984
+title: Review Project 2 submissions.
+type: text/vnd.tiddlywiki
+
+(except, today, we're going to ''Review Project 3 Designs''
+
+Submitted so far:<br>
+<$list filter="[tag[Submissions]component[Design]project[Project 3: Midsemester Portfolio]]">
+<$link to=<<currentTiddler>>>{{!!name}}</$link>
+<$list filter="[title<currentTiddler>tags[]]">
+<$macrocall $name="tag" tag=<<currentTiddler>>/>
+</$list>
+<hr>
+

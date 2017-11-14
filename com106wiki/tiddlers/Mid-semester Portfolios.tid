@@ -1,0 +1,34 @@
+created: 20171016020732446
+modified: 20171018165508035
+tags: 
+title: Mid-semester Portfolios
+type: text/vnd.tiddlywiki
+
+!! Grade Distribution
+
+* A-range: 5 (89% - 93%) 
+* B-range: 4 (81% - 85%) 
+* C-range: 3 (70% - 77%) 
+* F-range: 11 (0%- 56%)
+
+!! Making your grade better
+
+* A-range:  --> goal is A+
+* B-range: --> goal is A range
+* C-range: --> goal is A or B range
+* F-range: 11 (0%- 56%) --> goal is A, B or C
+
+
+!!! Step 1: Review grade
+!!! Step 2: Write and [[submit|https://goo.gl/forms/xgsoWet1RtWZtliT2]] ''Project 3 - Revision'' memo before 2pm
+# Identify any errors in rubric (i.e. if critiques are on portfolio, but rubric gives a score of 0)
+# Identify any additional work to be included in the portfolio
+# Identify critiques to be rewritten
+# Suggest a grade for mid-semester grades that your believe you deserve
+!!!  Step 3: Rewrite & resubmit [[critiques|Critique]] as identified in memo (by [[Mon Oct23]]
+
+
+!! Portfolio Submissions as of 10am Wednesday 18 October
+<$list filter="[project[Project 3: Midsemester Portfolio]component[Production]sort[email]]">
+<$link to=<<currentTiddler>>>></$link> <a href={{!!link}} target="_blank">{{!!name}}</a> <br>
+</$list>

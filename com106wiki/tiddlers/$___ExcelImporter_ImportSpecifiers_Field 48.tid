@@ -1,0 +1,10 @@
+created: 20171030151030720
+import-field-column: What is the method of discovery that Englebart et al proposes?
+import-field-name: discovery
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20171030151044276
+title: $:/_ExcelImporter/ImportSpecifiers/Field 48
+type: text/vnd.tiddlywiki
+

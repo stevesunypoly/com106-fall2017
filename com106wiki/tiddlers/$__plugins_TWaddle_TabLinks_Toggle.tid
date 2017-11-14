@@ -1,0 +1,12 @@
+caption: TabLinks
+created: 20170115223014606
+creator: twMat
+list-before: 
+modified: 20171030141534091
+modifier: twMat
+tags: $:/tags/ControlPanel/Settings
+title: $:/plugins/TWaddle/TabLinks/Toggle
+type: text/vnd.tiddlywiki
+
+<<toggle  "$:/plugins/TWaddle/TabLinks/Stylesheet!!display" inline-block none>>In tabs, display shortcut links to the content tiddler, //when hovering// on the active tab.
+

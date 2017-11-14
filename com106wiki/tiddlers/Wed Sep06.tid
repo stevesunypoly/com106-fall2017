@@ -2,8 +2,9 @@ calendar-event:
 class-topic: Explore production platforms (powtoons, slides, etc.). Define conceptualization and design. Review project conceptualizations.
 created: 20170818220551391
 day-date: Wed Sep06
+desc: Wed Sep06-desc
 lc-project-component-due: 
-modified: 20170818220551391
+modified: 20170906151333610
 project-component-due: 
 project-number-due: 
 sortable-date: 20170906000000000
@@ -11,3 +12,4 @@ tags: Days
 title: Wed Sep06
 type: text/vnd.tiddlywiki
 
+<$transclude tiddler={{!!desc}} mode="block"/>

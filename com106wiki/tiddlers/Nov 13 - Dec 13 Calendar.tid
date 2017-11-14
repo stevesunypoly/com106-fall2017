@@ -1,0 +1,20 @@
+created: 20171113155652597
+modified: 20171113163307272
+tags: 
+title: Nov 13 - Dec 13 Calendar
+type: text/vnd.tiddlywiki
+
+\define indirect() Project$(project-number-due)$
+
+<$list filter="[tag[Days]sort[sortable-date]] +[allafter[Fri Nov10]]">
+Date: <$link>{{!!title}}</$link><br>
+
+<$list filter="[title<currentTiddler>!project-number-due[]]" >
+<$vars project-number-due={{!!project-number-due}} lc-project-component-due={{!!lc-project-component-due}}>
+<span class="project-link">Due: <$link to=<<indirect>>>Project<$transclude field="project-number-due" mode="inline"/>: <$transclude field="project-component-due" mode="inline"/></$link><br>
+</span>
+</$vars>
+</$list>
+Class: <$link to={{!!class-topic}}>{{!!class-topic}}</$link><br>
+<br>
+</$list>

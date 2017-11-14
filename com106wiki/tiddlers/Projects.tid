@@ -1,6 +1,6 @@
 color: #ffff00
 created: 20170726221747681
-modified: 20170818214933318
+modified: 20170904011653628
 tags: 
 title: Projects
 type: text/vnd.tiddlywiki
@@ -9,7 +9,7 @@ type: text/vnd.tiddlywiki
 
 \define indirect2() Project$(project-number)$
 
-<$list filter="[tag[Project]]">
+<$list filter="[tag[Projects]]">
 
 <$vars projectTiddler=<<currentTiddler>> project-number={{!!project-number}} >
 

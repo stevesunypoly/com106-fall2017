@@ -1,0 +1,12 @@
+created: 20171011140101003
+import-field-column: Column Name
+import-field-list-op: append
+import-field-name: tags
+import-field-source: constant
+import-field-type: string
+import-field-value: PrinciplesOfDesign
+import-spec-role: field
+modified: 20171011140119732
+title: $:/_ExcelImporter/ImportSpecifiers/Field 38
+type: text/vnd.tiddlywiki
+

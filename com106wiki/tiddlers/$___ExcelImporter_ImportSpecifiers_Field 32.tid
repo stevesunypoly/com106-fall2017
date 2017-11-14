@@ -1,0 +1,11 @@
+created: 20170902105557665
+import-field-column: Timestamp
+import-field-name: comments
+import-field-prefix: Comments-
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170902105624927
+title: $:/_ExcelImporter/ImportSpecifiers/Field 32
+type: text/vnd.tiddlywiki
+

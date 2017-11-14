@@ -1,0 +1,12 @@
+created: 20170902201647296
+modified: 20170920153627112
+tags: $:/tags/ViewTemplate
+title: ReviewedSubmissions template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[ReviewedSubmissions]]">
+<a href={{!!link}} target="_blank">Link</a> || 
+<$appear show="Show" hide="Hide">
+<iframe src={{!!link}} width=100% height=400>
+</$appear><br>
+</$list>

@@ -1,0 +1,11 @@
+created: 20171030151921485
+modified: 20171030152008656
+tags: [[Answers to Questions to Ponder]]
+title: MOAD-Technology
+type: text/vnd.tiddlywiki
+
+!! What <<yw technology>> is being shown to individuals for the first time?
+<$list filter="[prefix[MOAD Response ]]">
+{{!!email}}: <$view field="technology" mode="block"/>
+</$list>
+

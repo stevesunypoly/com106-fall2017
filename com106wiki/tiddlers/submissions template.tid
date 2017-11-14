@@ -1,0 +1,22 @@
+created: 20170902105953377
+modified: 20171023152158022
+tags: $:/tags/ViewTemplate
+title: submissions template
+type: text/vnd.tiddlywiki
+
+\define indirect() $(name)$-$(project)$-$(component)$
+<$list filter="[is[current]tag[Submissions]]">
+<a href={{!!link}} target="_blank">Link</a><br>
+<$vars name={{!!name}} project={{!!project}} component={{!!component}} email={{!!email}}
+link={{!!link}}>
+
+<$button>
+<$action-setfield 
+$tiddler=<<indirect>>
+ tags="ReviewedSubmissions" link=<<link>> project=<<project>> component=<<component>> email=<<email>> name=<<name>> />
+<$action-sendmessage $message="tm-edit-tiddler" $param=<<indirect>>/>
+Review <<name>>
+</$button>
+</$vars>
+<iframe src={{!!link}} width="100%" height="400">
+</$list>

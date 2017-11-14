@@ -1,0 +1,20 @@
+created: 20171101150633347
+modified: 20171101151134845
+tags: $:/tags/ViewTemplate
+title: pod template
+type: text/vnd.tiddlywiki
+
+\define indirect() $(project)$-$(component)$
+<$list filter="[is[current]tag[PrinciplesOfDesign]]">
+<$list filter="[tag[Submissions]tag<currentTiddler>sort[name]]">
+<$link>>></$link>
+{{!!name}},  
+{{!!project}} {{!!component}}<br>
+
+</$list>
+</$list>
+
+
+
+
+

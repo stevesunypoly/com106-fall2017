@@ -1,0 +1,23 @@
+created: 20171023154137098
+modified: 20171025152611336
+title: TVUX
+type: text/vnd.tiddlywiki
+
+! Class Topic: Television as User Experience
+
+!! Part 1: Technology and UX <$appear hide="<<" show=">>" state="part1">
+
+# Consider the broad history of television technology in the American experience:
+## Screens: Portable, large screen, mini
+## Components: Remote control, VCR/DVR
+## Delivery: UHF / Cable / Streaming (YouTube, NetFlix)
+## Programming: video tape, Live Remotes (Satellite)
+# In small groups (3-4 persons), identify a way in which each of these four elements shaped user experience of television in the American home during the past 50 years (1967-2017)
+# Create a single slide in Google slides presentation and share link
+[[form|https://goo.gl/forms/L9kZU7jt3oP7bAmH2]] || [[responses|https://docs.google.com/spreadsheets/d/1ujwjewsAAm0lczvoUpywlflhyIM_1uGIh6D5I--5IQg/edit#gid=768796242]]<br>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfwl8XEFzFFKlTXmYZclUT9NhXNnBEDEJrhnK41p3oH3I7_lA/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+</$appear><br>
+
+!! Part 2: The TVUX <$appear show=">>" hide="<<" state="part2"><$transclude tiddler="TVUX-Part2" mode="block"/></$appear><br>
+
+

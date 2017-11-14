@@ -1,5 +1,5 @@
 created: 20170807194128051
-modified: 20170818222902334
+modified: 20170913142337696
 tags: $:/tags/ViewTemplate
 title: days template
 type: text/vnd.tiddlywiki
@@ -7,17 +7,19 @@ type: text/vnd.tiddlywiki
 \define indirect() Project$(project-number-due)$
 
 <$list filter="[is[current]tag[Days]]">
-<span class="class-topic">Topic: <$transclude field="class-topic" mode="inline"/><br></span>
+<hr>
+<span class="class-topic">Topic: <$transclude field="class-topic" mode="inline"/></span><$link to={{!!class-topic}}>>></$link><br>
 
 
 <$list filter="[title<currentTiddler>!project-number-due[]]" emptyMessage={{NoAssignments}}>
 <$vars project-number-due={{!!project-number-due}} lc-project-component-due={{!!lc-project-component-due}}>
-<span class="project-link">Due: <$link to=<<indirect>>>Project<$transclude field="project-number-due" mode="inline"/></$link>: <$link to={{!!project-component-due}}><$transclude field="project-component-due" mode="inline"/></$link>
-<$appear show="(Details)" hide="(Hide Details)">
+<span class="project-link">Due: <$link to=<<indirect>>>Project<$transclude field="project-number-due" mode="inline"/>: <$transclude field="project-component-due" mode="inline"/></$link><br>
+<$appear show="Assignment Details" state="assignment-details">
 <$transclude tiddler=<<indirect>> field=<<lc-project-component-due>>/>
-</$appear>
+</$appear><br>
 </span>
 </$vars>
+[[Share Submission|https://goo.gl/forms/xgsoWet1RtWZtliT2]]
 <br>
 </$list>
 
@@ -28,6 +30,8 @@ type: text/vnd.tiddlywiki
 
 
 
+<p>
 <div class="fpnl-days">
 <$macrocall $name="fpnl-by-tag" myTiddler=<<currentTiddler>> myTag="Days" mySortField="sortable-date"/>
 </div>
+</p>

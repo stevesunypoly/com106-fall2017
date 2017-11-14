@@ -1,6 +1,6 @@
 created: 20170808172502344
-modified: 20170818212721130
+modified: 20170902105812929
 title: $:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/control-panel
 type: text/vnd.tiddlywiki
 
-hide
+show

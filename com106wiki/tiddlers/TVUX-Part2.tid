@@ -1,0 +1,52 @@
+created: 20171025133654300
+modified: 20171025152356017
+tags: 
+title: TVUX-Part2
+type: text/vnd.tiddlywiki
+
+<div style="background-color:cornsilk">
+
+!! [[Five Dimensions of Interactivity]]<$appear show=">>" hide="<<" state="five">
+
+!!! Playfulness || Choice || Connectedness || Archivability || Reciprocity
+</$appear><br>
+</div>
+
+
+<div style="background-color:#ffd7b5">
+
+!! Interacting with television<$appear show=">>" hide="<<" state="interact">
+
+!!! Interacting with the Device || Programming || Programming-related content
+</$appear><br>
+
+</div>
+
+!! TVUX in the Network Era: 1950-1975 <$appear show=">>" hide="<<" state="1950">
+
+!!! Few channels; driven by broadcast industry.
+!!! Few devices per household. 
+!!! National audience, shared viewing. 
+!!! Events-based: news, Super Bowl, etc. 
+!!! TV as social fabric, tonic for conversation. 
+!!! Program based, time based, channel branded. 
+</$appear><br>
+
+!! TVUX in the Cable Era: 1975 - 2005 <$appear show=">>" hide="<<" state="1975">
+
+!!! Many channels, abundance rather than scarcity.
+!!! Multiple new forms of television programming: cable news, sports channels, reality show, MTV. 
+!!! Channel based: MTV, HBO, CNN. Early streams...
+!!! Fragmentation of the audience; narrowcasting. TV as niche, and identity.
+!!! Remote controls, channel searching, on-screen directory.
+</$appear><br>
+
+!! TVUX in the Internet Era: 2005 - 2020 <$appear show=">>" hide="<<" state="2005">
+
+!!! Unlimited programming; programming on demand; content aggregators
+!!! Highly fragmented audience, less unification
+!!! No time dimension
+!!! Aggregated search across multiple content providers.
+!!! New interaction devices: Remote / keyboard. Tablet / phone as interface
+!!! Future: Gesture control, voice control.
+</$appear><br>

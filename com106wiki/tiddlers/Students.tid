@@ -1,0 +1,13 @@
+created: 20170920132643910
+list: 
+modified: 20170920140429774
+tags: More
+title: Students
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Student]sort[title]]">
+<$vars student=<<currentTiddler>>>
+<$list filter="[tag[Submissions]email<currentTiddler>first[]]">
+<$link to=<<student>>>{{!!email}}: {{!!name}}</$link><br>
+</$list>
+

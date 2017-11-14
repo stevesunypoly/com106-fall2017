@@ -1,0 +1,29 @@
+created: 20170918150246319
+modified: 20170918154004421
+title: The world according to Pew I
+type: text/vnd.tiddlywiki
+
+<h1>What can we learn from the Pew Studies?</h1>
+
+<h2>Review Project 2 <$appear show=">>" hide="<<" state="$:/review">
+
+* Outcome: <$transclude tiddler="Project2" field="outcome" mode="block"/>
+* Research: <$transclude tiddler="Project2" field="research" mode="block"/>
+</$appear></h2>
+
+<h2>Read [[Pew Typology Study (2007)|http://www.pewinternet.org/2007/05/06/a-typology-of-information-and-communication-technology-users/]] <$appear show=">>" hide="<<" state="$:/pew">{{Assets, Actions, Attitudes}}</$appear></h2>
+
+
+<h2>Analyze Pew typology <$appear show=">>" hide="<<" state="$:/typology">{{Pew Technology Typology}}</$appear></h2>
+
+<h2>Explore [[Pew studies|http://www.pewresearch.org/]]
+ <$appear show=">>" hide="<<" state="$:/explore">
+Investigate 5-7 [[topics|http://www.pewinternet.org/topics/]]
+topics that might be of helpful for this project, and closely review/read/cite 3 studies</$appear></h2>
+<h2>Move towards a Concept submission
+<$appear show=">>" hide="<<" state="$:/concept">
+<$transclude tiddler="Project2" field="conceptualization" mode="block"/>
+</$appear></h2>
+
+
+

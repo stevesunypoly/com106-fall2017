@@ -1,0 +1,26 @@
+created: 20171030134950081
+modified: 20171030140350391
+title: Mother of All Demos
+type: text/vnd.tiddlywiki
+
+! Background <$appear show=">>" hide="<<" state="background">
+
+> On December 9th, 1968 Doug Engelbart appeared on stage at the Fall Joint Computer Conference in San Francisco to give his slated presentation, titled "A Research Center for Augmenting Human Intellect." He and his team spent the next 90 minutes not only telling about their work, but demonstrating it live to a spellbound audience that filled the hall.
+
+> Instead of standing at a podium, Doug was seated at a custom designed console, where he drove the presentation through their NLS computer residing 30 miles away in his research lab at Stanford Research Institute (SRI), onto a large projection screen overhead, flipping seamlessly between his presentation outline and live demo of features, while members of his research lab video teleconferenced in from SRI in shared screen mode to demonstrate more of the system.
+
+> This seminal demonstration came to be known as "The Mother of All Demos."
+
+[[Source|http://www.dougengelbart.org/firsts/dougs-1968-demo.html]]
+</$appear><br>
+
+! Questions to ponder <$appear show=">>" hide="<<" state="questions">
+
+* What technology is being shown to individuals for the first time?
+* What behaviors are being shown to individuals for the first time?
+* What does "Augmenting Human Intellect" mean?
+</$appear><br>
+
+! Highlights <$appear show=">>" hide="<<" state="mother">
+<<youtube-embed VScVgXM7lQQ>>
+</$appear><br>

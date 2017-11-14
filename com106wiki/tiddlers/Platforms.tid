@@ -1,0 +1,10 @@
+created: 20170920135352114
+list: 
+modified: 20170920140429782
+tags: More
+title: Platforms
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Platforms]]">
+<$link><<currentTiddler>></$link><br>
+</$list>

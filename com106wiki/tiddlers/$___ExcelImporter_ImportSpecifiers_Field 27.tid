@@ -1,0 +1,10 @@
+created: 20170902105417217
+import-field-column: Your name (FirstName LastName)
+import-field-name: name
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170902105436597
+title: $:/_ExcelImporter/ImportSpecifiers/Field 27
+type: text/vnd.tiddlywiki
+

@@ -1,5 +1,5 @@
 created: 20170808171030212
-modified: 20170818212604958
+modified: 20170828134041650
 tags: 
 title: Project Overviews
 type: text/vnd.tiddlywiki
@@ -8,7 +8,7 @@ type: text/vnd.tiddlywiki
 \define indirect2() Project$(project-number)$
 
 <span class="project-title-overview">
-Projects Overview<br>
+<h3>Overview</h3>
 </span>
 <span class="project-component-text">
 There are seven projects in this class, each making a specific contribution to the ''course'' grade:<br><br>
@@ -23,8 +23,8 @@ Projects 1, 2, 4 and 5 each consist of several parts, with each part making a sp
 </p>
 </$list>
 </span>
-The projects are detailed below:<br>
 
+<h2>Project Details</h2>
 <$list filter="[tag[Projects]]">
 <$vars projectTiddler=<<currentTiddler>> project-number={{!!project-number}}>
 <span class="project-title-overview">

@@ -1,0 +1,22 @@
+created: 20171011133020862
+modified: 20171011133333356
+tags: $:/tags/ViewTemplate
+title: navslide template
+type: text/vnd.tiddlywiki
+
+<$list filter="[is[current]tag[navslide]]">
+<$macrocall
+	$name="toc-selective-expandable"
+	tag={{!!title}}
+	selectedTiddler="$:/temp/toc/selectedTiddler"
+	unselectedText="<p>Select a topic in the table of contents. Click the arrow to expand a topic.</p>"
+	missingText="<p>Missing tiddler.</p>"
+/>
+</$list>
+<hr>
+
+
+
+
+
+

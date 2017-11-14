@@ -1,0 +1,10 @@
+created: 20170902105437734
+import-field-column: Project #
+import-field-name: project
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170902105450750
+title: $:/_ExcelImporter/ImportSpecifiers/Field 28
+type: text/vnd.tiddlywiki
+

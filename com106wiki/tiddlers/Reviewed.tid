@@ -1,0 +1,20 @@
+created: 20170902200528487
+list: 
+modified: 20170920143247796
+tags: More
+title: Reviewed
+type: text/vnd.tiddlywiki
+
+\define indirect() $(name)$-$(project)$-$(component)$
+
+<<select-project>>
+{{$:/ProjectToReview}}: {{$:/ProjectComponent}}<br>
+<$vars ProjectToReview={{$:/ProjectToReview}} ProjectComponent={{$:/ProjectComponent}}>
+
+<$list filter="[tag[ReviewedSubmissions]sort[name]component{$:/ProjectComponent}project{$:/ProjectToReview}sort[name]]">
+
+<$vars name={{!!name}} project={{!!project}} component={{!!component}} email={{!!email}}
+link={{!!link}}>
+<$link to=<<currentTiddler>>><<currentTiddler>></$link><br>
+</$vars>
+</$list>

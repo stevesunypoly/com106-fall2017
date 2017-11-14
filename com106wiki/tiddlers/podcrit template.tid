@@ -1,0 +1,19 @@
+created: 20170920141221719
+modified: 20170920145338587
+tags: $:/tags/ViewTemplate
+title: podcrit template
+type: text/vnd.tiddlywiki
+
+\define indirect() $(name)$: $(project)$-$(component)$
+<$list filter="[is[current]tag[PODCritique]]">
+<$list filter="[tag<currentTiddler>]">
+<$vars name={{!!name}} project={{!!project}} component={{!!component}} email={{!!email}}
+link={{!!link}}>
+<$link to=<<currentTiddler>>><<indirect>></$link><br>
+</$vars>
+</$list>
+</$list>
+
+
+
+

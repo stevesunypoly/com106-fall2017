@@ -1,0 +1,11 @@
+created: 20170902105319431
+import-field-column: Timestamp
+import-field-name: title
+import-field-prefix: Submission
+import-field-source: column
+import-field-type: string
+import-spec-role: field
+modified: 20170902105412703
+title: $:/_ExcelImporter/ImportSpecifiers/Field 26
+type: text/vnd.tiddlywiki
+
