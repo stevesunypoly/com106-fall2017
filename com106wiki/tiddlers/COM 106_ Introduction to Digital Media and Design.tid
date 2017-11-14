@@ -1,18 +1,25 @@
 created: 20170818212804275
-modified: 20171113163718897
+modified: 20171114220513509
 tags: 
 title: COM 106: Introduction to Digital Media and Design
 type: text/vnd.tiddlywiki
 
-!! Today: [[Mon Nov13]]
+!! Today: [[Wed Nov15]]
 
-!! [[Nov 13 thru the rest of semester|Nov 13 - Dec 13 Calendar]]
+!!! Substantive changes to course schedule: [[Nov 13 thru the rest of semester|Nov 13 - Dec 13 Calendar]]
+!!! Minor technical changes <$appear show=">>" hide="<<" state="$:/new">
+
+* The COM 106 wiki is now being redirected from [[SUNY Poly|http://people.sunyit.edu/~steve/classes/com106/]] to [[GitHub|https://stevesunypoly.github.io/com106-fall2017/]]. No need to change anything!
+* Those interested may clone the [[GitHub Repo|https://github.com/stevesunypoly/com106-fall2017]]
+</$appear><br>
+!!! Old Stuff <$appear show=">>" hide="<<" state="$:/old">
 <h2>Navigable Course Syllabus</h2>
-
- * Use the buttons above to navigate to specific days, projects or due dates
-* Click on {{$:/core/ui/Buttons/home}} to restart
-* Click on {{$:/core/ui/Buttons/close}} to go back
+<h3>Use the buttons above to navigate to specific days, projects or due dates</h3>
+<h3>Click on {{$:/core/ui/Buttons/home}} to restart</h3>
+<h3>Click on {{$:/core/ui/Buttons/close}} to go back</h3>
 <h2>Static Syllabus & Due Dates</h2>
+
 
 * [[Syllabus|COM 106-01 Introduction to Digital Media and Design]]
 *[[Due Dates]]
+</$appear>

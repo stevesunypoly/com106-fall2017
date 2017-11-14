@@ -13,7 +13,7 @@
 </noscript>
 <!--[if lt IE 9]><script type="text/javascript">var IE_fix=true;</script><![endif]-->
 <script type="text/javascript">
-	var url = "https://stevesunypoly.github.io/com106-fall2017/";
+	var url = "http://designwritestudio.github.io";
 	var delay = "1000";
 	window.onload = function ()
 	{

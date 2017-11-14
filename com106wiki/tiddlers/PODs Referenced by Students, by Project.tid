@@ -1,0 +1,20 @@
+created: 20171114220552839
+modified: 20171114224557109
+tags: 
+title: PODs Referenced by Students, by Project
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Submissions]sort[email]each[email]]">
+''{{!!name}}'' ({{!!email}}) <$appear show=">>" hide="<<" state={{!!email}}>
+
+<$list filter="[tag[Submissions]email{!!email}!sort[title]]">
+<$vars project={{!!project}} component={{!!component}}>
+<$list filter="[<currentTiddler>tags[]]">
+<$list filter="[title<currentTiddler>tag[PrinciplesOfDesign]]">
+<<currentTiddler>> (<<project>> <<component>>)<br>
+</$list>
+</$list>
+</$vars>
+</$list>
+</$appear><br>
+</$list>
