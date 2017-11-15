@@ -1,6 +1,24 @@
-created: 20171113162907247
-modified: 20171113162921626
+created: 20171114220552839
+modified: 20171115163959835
+tags: 
 title: Portfolio & Principles of Design
 type: text/vnd.tiddlywiki
 
-* We will discuss ways to integrate principles of design into portfolio assignment
+* How can you integrate / address the principles of design into your portfolio?
+* Start by reviewing the POD referenced in assignments <$appear show=">>" hide="<<" >
+<$list filter="[tag[Submissions]sort[email]each[email]]">
+''{{!!name}}'' ({{!!email}}) <$appear show=">>" hide="<<" state={{!!email}}>
+
+<$list filter="[tag[Submissions]email{!!email}!sort[title]]">
+<$vars project={{!!project}} component={{!!component}}>
+<$list filter="[<currentTiddler>tags[]]">
+<$list filter="[title<currentTiddler>tag[PrinciplesOfDesign]]">
+<<currentTiddler>> (<<project>> <<component>>)<br>
+</$list>
+</$list>
+</$vars>
+</$list>
+</$appear><br>
+</$list>
+</$appear><br>
+* Figure out a way identify and reference the four most important POD to you this semester. Create a document organized by the PODs that reference the ways your project addressed them.
