@@ -1,0 +1,8 @@
+created: 20171120182625670
+modified: 20171120182710125
+title: Project 5 Design Submissions
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[Submissions]project[Project 5: Impact & Influence of Digital Media]component[Design]]">
+{{!!name}} <$link> > </$link><br>
+</$list>
