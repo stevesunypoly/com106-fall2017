@@ -1,0 +1,8 @@
+created: 20171120161653991
+modified: 20171120165518059
+title: Comments on Project 5 Designs
+type: text/vnd.tiddlywiki
+
+<$list filter="[tag[ReviewedSubmissions]project[Project 5: Impact & Influence of Digital Media]]">
+{{!!name}} <$appear show=">>" hide="<<"><$transclude mode="block"/><a href={{!!link}} target="_blank">Link to Design</a></$appear><br>
+</$list>
