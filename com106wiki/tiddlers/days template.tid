@@ -1,5 +1,5 @@
 created: 20170807194128051
-modified: 20170913142337696
+modified: 20171129184221737
 tags: $:/tags/ViewTemplate
 title: days template
 type: text/vnd.tiddlywiki
@@ -8,7 +8,8 @@ type: text/vnd.tiddlywiki
 
 <$list filter="[is[current]tag[Days]]">
 <hr>
-<span class="class-topic">Topic: <$transclude field="class-topic" mode="inline"/></span><$link to={{!!class-topic}}>>></$link><br>
+<span class="class-topic">Topic: </span><$link to={{!!class-topic}}><$transclude field="class-topic" mode="inline"/></$link><br>
+
 
 
 <$list filter="[title<currentTiddler>!project-number-due[]]" emptyMessage={{NoAssignments}}>

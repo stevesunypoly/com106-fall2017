@@ -1,6 +1,14 @@
 created: 20171113163251851
-modified: 20171113163303475
+modified: 20171129173838405
 title: Project 5 Presentations
 type: text/vnd.tiddlywiki
 
-* Students will present Project 5 outcome.
+* Each student will have about 6 minutes to show their Project 5. Students should be prepared to describe their intention (1 minute), describe the biggest challenge they faced (2 minutes), and describe/show their project (3 minutes).
+* Students will present their work from the Big Mac in the front of the room!
+* This is the tentative order:
+<$list filter="[tag[Students]sort[modified]]">
+<$list filter="[tag[Submissions]email<currentTiddler>first[]]">
+{{!!name}}<br>
+</$list>
+</$list>
+

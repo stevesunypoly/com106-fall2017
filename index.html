@@ -11132,8 +11132,8 @@ $:/config/ViewToolbarButtons/Visibility/$(listItem)$
 <div title="$:/isEncrypted" revision="0" bag="default">
 <pre>no</pre>
 </div>
-<div created="20171114220107144" modified="20171114220328132" title="$:/new" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>COM 106: Introduction to Digital Media and Design</pre>
+<div created="20171114220107144" modified="20171129172855524" title="$:/new" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre></pre>
 </div>
 <div created="20171114220411532" modified="20171114220458738" title="$:/old" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre></pre>
@@ -11736,8 +11736,8 @@ D=&quot;&lt;br/&gt;@@color:red;=&gt;@@ Configure as below&quot;
 <div created="20170918153955418" modified="20170918153956519" title="$:/typology" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>Draft of 'The world according to Pew I'</pre>
 </div>
-<div created="20170807201736140" modified="20171120164904507" title="$:/view" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>zoomin</pre>
+<div created="20170807201736140" modified="20171129174538758" title="$:/view" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>classic</pre>
 </div>
 <div created="20170918151037432" modified="20170918151954759" title="$/actions" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre></pre>
@@ -12070,8 +12070,8 @@ Importing answers from google form process:
 
 </pre>
 </div>
-<div created="20170818212804275" modified="20171127173555189" tags="" title="COM 106: Introduction to Digital Media and Design" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>!! Today: [[Mon Nov27]]
+<div created="20170818212804275" modified="20171129172913590" tags="" title="COM 106: Introduction to Digital Media and Design" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>!! Today: [[Mon Dec04]]
 
 !!! Substantive changes to course schedule: [[Nov 13 thru the rest of semester|Nov 13 - Dec 13 Calendar]]
 !!! Minor technical changes &lt;$appear show=&quot;&gt;&gt;&quot; hide=&quot;&lt;&lt;&quot; state=&quot;$:/new&quot;&gt;
@@ -12364,12 +12364,13 @@ COM 106: Introduction to Digital Media and Design
 <div color="#0000ff" created="20170818213258706" list="[[Mon Aug28]] [[Wed Aug30]] [[Fri Sep01]] [[Mon Sep04]] [[Wed Sep06]] [[Fri Sep08]] [[Mon Sep11]] [[Wed Sep13]] [[Fri Sep15]] [[Mon Sep18]] [[Wed Sep20]] [[Fri Sep22]] [[Mon Sep25]] [[Wed Sep27]] [[Fri Sep29]] [[Mon Oct02]] [[Wed Oct04]] [[Fri Oct06]] [[Mon Oct09]] [[Wed Oct11]] [[Fri Oct13]] [[Mon Oct16]] [[Wed Oct18]] [[Fri Oct20]] [[Mon Oct23]] [[Wed Oct25]] [[Fri Oct27]] [[Mon Oct30]] [[Wed Nov01]] [[Fri Nov03]] [[Mon Nov06]] [[Wed Nov08]] [[Fri Nov10]] [[Mon Nov13]] [[Wed Nov15]] [[Fri Nov17]] [[Mon Nov20]] [[Wed Nov22]] [[Fri Nov24]] [[Mon Nov27]] [[Wed Nov29]] [[Fri Dec01]] [[Mon Dec04]] [[Wed Dec06]] [[Fri Dec08]] [[Mon Dec11]]" modified="20170818214917641" title="Days" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre></pre>
 </div>
-<div created="20170807194128051" modified="20170913142337696" tags="$:/tags/ViewTemplate" title="days template" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<div created="20170807194128051" modified="20171129184221737" tags="$:/tags/ViewTemplate" title="days template" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>\define indirect() Project$(project-number-due)$
 
 &lt;$list filter=&quot;[is[current]tag[Days]]&quot;&gt;
 &lt;hr&gt;
-&lt;span class=&quot;class-topic&quot;&gt;Topic: &lt;$transclude field=&quot;class-topic&quot; mode=&quot;inline&quot;/&gt;&lt;/span&gt;&lt;$link to={{!!class-topic}}&gt;&gt;&gt;&lt;/$link&gt;&lt;br&gt;
+&lt;span class=&quot;class-topic&quot;&gt;Topic: &lt;/span&gt;&lt;$link to={{!!class-topic}}&gt;&lt;$transclude field=&quot;class-topic&quot; mode=&quot;inline&quot;/&gt;&lt;/$link&gt;&lt;br&gt;
+
 
 
 &lt;$list filter=&quot;[title&lt;currentTiddler&gt;!project-number-due[]]&quot; emptyMessage={{NoAssignments}}&gt;
@@ -13991,8 +13992,17 @@ link={{!!link}}&gt;
 &lt;/$list&gt;
 </pre>
 </div>
-<div created="20171113163251851" modified="20171113163303475" title="Project 5 Presentations" type="text/vnd.tiddlywiki" revision="0" bag="default">
-<pre>* Students will present Project 5 outcome.</pre>
+<div created="20171113163251851" modified="20171129173838405" title="Project 5 Presentations" type="text/vnd.tiddlywiki" revision="0" bag="default">
+<pre>* Each student will have about 6 minutes to show their Project 5. Students should be prepared to describe their intention (1 minute), describe the biggest challenge they faced (2 minutes), and describe/show their project (3 minutes).
+* Students will present their work from the Big Mac in the front of the room!
+* This is the tentative order:
+&lt;$list filter=&quot;[tag[Students]sort[modified]]&quot;&gt;
+&lt;$list filter=&quot;[tag[Submissions]email&lt;currentTiddler&gt;first[]]&quot;&gt;
+{{!!name}}&lt;br&gt;
+&lt;/$list&gt;
+&lt;/$list&gt;
+
+</pre>
 </div>
 <div created="20171113161716734" modified="20171113162725209" title="Project 5: Project Management Strategies" type="text/vnd.tiddlywiki" revision="0" bag="default">
 <pre>[[Google Sheet|https://docs.google.com/spreadsheets/d/1-FojqgNbjBWZILbnPVpXlB0B7J0rlDhwPYjACTH8Zn4/edit?usp=sharing]] - modify and include in portfolio for Project 5 (Research)</pre>
