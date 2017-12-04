@@ -1,5 +1,5 @@
 created: 20171113163251851
-modified: 20171129173838405
+modified: 20171204165707124
 title: Project 5 Presentations
 type: text/vnd.tiddlywiki
 
@@ -7,8 +7,12 @@ type: text/vnd.tiddlywiki
 * Students will present their work from the Big Mac in the front of the room!
 * This is the tentative order:
 <$list filter="[tag[Students]sort[modified]]">
+<$vars thename=<<currentTiddler>>>
 <$list filter="[tag[Submissions]email<currentTiddler>first[]]">
-{{!!name}}<br>
+{{!!name}}: 
+<$list filter="[component[Production]project[Project 5: Impact & Influence of Digital Media]email<thename>]">
+<$link>></$link>
 </$list>
+<br>
 </$list>
 
