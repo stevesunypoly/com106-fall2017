@@ -1,0 +1,11 @@
+created: 20171206163102415
+modified: 20171206163239237
+tags: 
+title: Project 7 (Portfolio) Submissions
+type: text/vnd.tiddlywiki
+
+<ul>
+<$list filter="[component[Production]project[Project 7: Final Portfolio]]">
+<li><$link>{{!!name}}</$link></li>
+</$list>
+
