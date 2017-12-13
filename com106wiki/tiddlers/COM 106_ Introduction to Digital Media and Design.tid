@@ -1,10 +1,19 @@
 created: 20170818212804275
-modified: 20171206162557974
+modified: 20171213175959485
 tags: 
 title: COM 106: Introduction to Digital Media and Design
 type: text/vnd.tiddlywiki
 
-!! Today: [[Wed Dec06]] we will do [[Project 5 Presentations]]
+!! Today: [[Wed Dec13]] Portfolios Due!
+Submissions Received as of 1pm:<br>
+<$list filter="[tag[Students]sort[modified]]">
+<$vars thename=<<currentTiddler>>>
+<$list filter="[component[Production]project[Project 7: Final Portfolio]email<thename>]">
+<$link>{{!!name}}</$link><br>
+</$list>
+</$vars>
+</$list>
+<hr>
 
 !!! Substantive changes to course schedule: [[Nov 13 thru the rest of semester|Nov 13 - Dec 13 Calendar]]
 !!! Minor technical changes <$appear show=">>" hide="<<" state="$:/new">
