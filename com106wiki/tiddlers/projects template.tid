@@ -1,5 +1,5 @@
 created: 20170728170614177
-modified: 20170818180809467
+modified: 20171213174454622
 tags: $:/tags/ViewTemplate
 title: projects template
 type: text/vnd.tiddlywiki
@@ -13,9 +13,11 @@ type: text/vnd.tiddlywiki
 <$transclude field="project-title" mode="inline"/>
 </span>
 
+
 <span class="project-component-title">
 Outcome:
 </span>
+
 
 <span class="project-component-text">
 <$transclude field="outcome" mode="block"/>
@@ -29,6 +31,8 @@ Outcome:
 <$vars project-component=<<currentTiddler>> field-name={{!!lc-title}}>
 <span class="project-component-title"><<currentTiddler>>
 </span>
+
+
 <span class="project-component-text"><$macrocall $name="show-component-name" component=<<project-component>>/>
 </span>
 
