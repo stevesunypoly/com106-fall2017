@@ -1,10 +1,10 @@
 created: 20170818212804275
-modified: 20171214152603836
+modified: 20171214180649198
 tags: 
 title: COM 106: Introduction to Digital Media and Design
 type: text/vnd.tiddlywiki
 
-!! Today: [[Wed Dec13]] Portfolios Due!
+!! [[Wed Dec13]] Portfolios Due!
 Submissions received as of 1000am Thu Dec 14:<br>
 <$list filter="[tag[Students]sort[modified]]">
 <$vars thename=<<currentTiddler>>>
